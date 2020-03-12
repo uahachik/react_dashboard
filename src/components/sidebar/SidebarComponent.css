@@ -1,0 +1,54 @@
+._200_mainContainer {
+    height: 100%;
+    min-height: 100vh;
+}
+
+._200_container {
+    background-color: #1d2024;
+    width: 260px;
+    height: 100%;
+    box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.42), 0 4px 25px 0px rgba(0, 0, 0, 0.12),
+        0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+._200_mainContainerMobile {
+    overflow: hidden;
+}
+
+._200_containerMobile {
+    position: absolute;
+    z-index: 1;
+    overflow: auto;
+    padding-bottom: 70px;
+    transition: 0.5s cubic-bezier(0.001, 1, 1, 1);
+}
+
+._200_hide {
+    left: -300px;
+}
+
+._200_show {
+    left: 0;
+}
+
+._200_outsideLayer {
+    position: absolute;
+    width: 100vw;
+    height: 122vh;
+    min-width: 100%;
+    padding-bottom: 4%;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+@media (max-height: 491px) {
+    ._200_outsideLayer {
+        height: 207vh;
+    }
+}
+
+._200_separator {
+    border-top: 1px solid #dfe0eb;
+    margin-top: 13px;
+    margin-bottom: 14px;
+    opacity: 0.06;
+}

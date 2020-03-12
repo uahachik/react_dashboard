@@ -1,0 +1,62 @@
+._411_mainContainer {
+    position: absolute;
+    top: -16%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 122vh;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+._411_container {
+    position: relative;
+    display: inline-block;
+    justify-self: center;
+    padding: 20px;
+    margin: 1rem;
+    min-height: 300px;
+    min-width: 300px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    font-family: -apple-system, BlinkMacSystemFont, 'Muli';
+    font-style: italic;
+    letter-spacing: 1.1px;
+}
+
+@media (max-width: 468px) {
+    ._411_container {
+        min-width: 0;
+    }
+}
+
+._411_content {
+    margin: 20px 0 30px 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Times';
+}
+
+._411_button {
+    padding: 20px 12px;
+    color: rgba(0, 0, 0, 0.78);
+    background-color: #a9f543e0;
+    border: 0.3mm ridge #48494f66;
+    border-radius: 3%;
+    box-shadow: 0px 1px 7px rgba(154, 154, 154, 0.1);
+    transition: background-color 450ms cubic-bezier(0.2, 0, 0.2, 1) 0ms,
+        box-shadow 750ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 350ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 0.95rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+._411_button:hover {
+    background-color: #9be63aca;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+._411_form > span {
+    margin: 20px 0;
+}

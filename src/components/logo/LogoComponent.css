@@ -1,0 +1,51 @@
+._300_container {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    background-color: #1d2027;
+    z-index: 2;
+}
+
+._300_logo {
+    background-color: #0856e708;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+._300_motto {
+    margin-bottom: 6px;
+    font-family: Times;
+    font-style: italic;
+    font-size: 19px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    opacity: 0.9;
+}
+
+._300_title {
+    margin-left: 8px;
+    margin-right: 25px;
+    font-family: 'Akronim';
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0.6px;
+    color: #b7f460;
+    opacity: 0.9;
+}
+
+._300_name {
+    color: #b7f460;
+    font-size: 15px;
+    letter-spacing: 0.25px;
+    line-height: 20px;
+    opacity: 0.75;
+}
+
+._300_separator {
+    margin: 7px 20px 12px;
+    border-top: 1px solid #dfe0eb;
+    opacity: 0.1;
+}

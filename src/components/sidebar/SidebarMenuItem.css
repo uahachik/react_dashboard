@@ -1,0 +1,51 @@
+._210_activeBar {
+    height: 56px;
+    width: 3px;
+    background-color: #dde2ff;
+    position: absolute;
+    left: 0;
+}
+
+._210_container {
+    height: 56px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-bottom: 1px;
+    cursor: pointer;
+}
+
+._210_container:hover {
+    background-color: rgba(221, 226, 255, 0.038);
+    opacity: 1;
+}
+
+@media (max-width: 960px) {
+    ._210_container:hover {
+        background-color: rgba(221, 226, 255, 0.08);
+    }
+}
+
+._210_activeContainer {
+    background-color: rgba(221, 226, 255, 0.08);
+}
+
+@media (max-width: 960px) {
+    ._210_activeContainer {
+        background-color: rgba(221, 226, 255, 0.038);
+    }
+}
+
+._210_title {
+    font-family: Muli;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+    color: #dde2ff;
+    opacity: 0.9;
+    margin-left: 24px;
+}
+
+._210_activeTitle {
+    color: #dde2ff;
+    opacity: 0.6;
+}
