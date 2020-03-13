@@ -9,6 +9,12 @@ const HeaderComponent = ({isEspanded}) => {
     
     const [isOpenProfile, setIsOpenProfile] = useState(false);
     
+    if (isOpenProfile) {
+        document.body.style.overflow = 'hidden';
+    } else {
+        document.body.style.overflow = 'auto'
+    }
+        
     const mobileWindow = window.innerWidth < 960;    
 
     const openProfileModal = () =>  setIsOpenProfile(true);
@@ -19,9 +25,9 @@ const HeaderComponent = ({isEspanded}) => {
     return (
         <div>
             <Row className="_400_container" vertical="center" horizontal="space-between">
-                {mobileWindow && <Row className="_400_mobileTitle">ЕРКП</Row>}
+                {mobileWindow && <Row className="_400_mobileTitle">RDWS</Row>}
                 <span />
-                <button className="_400_profileButton" onClick={openProfileModal} style={isEspanded ? {opacity: 0.8} : null}>
+                <button className="_400_profileButton" onClick={openProfileModal} style={isEspanded ? {opacity: 0.7} : null}>
                     <Row vertical="center" className="_400_profile">
                         {!mobileWindow && <span className="_400_name">Roman Kotenko</span>}          
                         <img
