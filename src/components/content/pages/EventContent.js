@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
 import { useParams } from 'react-router-dom';
-import { Column } from 'simple-flexbox'
+import PropTypes from 'prop-types';
+import { Column } from 'simple-flexbox';
 import './PagesContent.css';
 
-import ContentHeader from '../ContentHeader'
+import ContentHeader from '../ContentHeader';
 
 const EventContent = () => {
     const { title } = useParams();
@@ -22,6 +23,10 @@ const EventContent = () => {
                 </div>
         </Column>
     )
+}
+
+EventContent.propTypes = {
+    title: PropTypes.string.isRequired
 }
 
 export default EventContent;

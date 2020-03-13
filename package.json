@@ -14,10 +14,8 @@
         "simple-flexbox": "^2.3.0"
     },
     "scripts": {
-        "dev": "react-scripts start",
-        "start": "serve -s build",
-        "build": "GENERATE_SOURCEMAP=false react-scripts build",
-        "heroku-postbuild": "npm run build"
+        "start": "react-scripts start",
+        "build": "react-scripts build",
     },
     "eslintConfig": {
         "extends": "react-app"

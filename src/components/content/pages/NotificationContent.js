@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { useParams } from 'react-router-dom';
-import { Column } from 'simple-flexbox'
+import { Column } from 'simple-flexbox';
 import './PagesContent.css';
 
 import ContentHeader from '../ContentHeader';
