@@ -9,6 +9,7 @@
     align-items: center;
     min-height: 122vh;
     background-color: rgba(0, 0, 0, 0.712);
+    z-index: 2;
 }
 
 ._411_container {
