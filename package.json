@@ -14,9 +14,8 @@
     },
     "scripts": {
         "start": "react-scripts start",
-        "build": "react-scripts build",
-        "heroku-postbuild": "rimraf build/**/*.map",
-        "deploy": "set \"GENERATE_SOURCEMAP=false\" && npm run build",
+        "build": "GENERATE_SOURCEMAP=false react-scripts build",
+        "heroku-postbuild": "npm run build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },
