@@ -10,6 +10,7 @@
         "react-dom": "^16.13.0",
         "react-router-dom": "^5.1.2",
         "react-scripts": "3.4.0",
+        "serve": "^11.3.0",
         "simple-flexbox": "^2.3.0"
     },
     "scripts": {
@@ -22,7 +23,15 @@
         "extends": "react-app"
     },
     "browserslist": {
-        "production": [ ">0.2%", "not dead", "not op_mini all" ],
-        "development": [ "last 1 chrome version", "last 1 firefox version", "last 1 safari version" ]
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
     }
 }
