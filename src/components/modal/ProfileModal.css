@@ -1,4 +1,4 @@
-._411_mainContainer {
+._1000_mainContainer {
     position: absolute;
     top: -16%;
     bottom: 0;
@@ -12,7 +12,7 @@
     z-index: 2;
 }
 
-._411_container {
+._1000_container {
     position: relative;
     display: inline-block;
     justify-self: center;
@@ -29,17 +29,17 @@
 }
 
 @media (max-width: 468px) {
-    ._411_container {
+    ._1000_container {
         min-width: 0;
     }
 }
 
-._411_content {
+._1000_content {
     margin: 20px 0 30px 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Times';
 }
 
-._411_button {
+._1000_button {
     padding: 20px 12px;
     color: rgba(0, 0, 0, 0.78);
     background-color: #a9f543e0;
@@ -53,11 +53,11 @@
     font-style: italic;
 }
 
-._411_button:hover {
+._1000_button:hover {
     background-color: #9be63aca;
     color: rgba(0, 0, 0, 0.87);
 }
 
-._411_form > span {
+._1000_form > span {
     margin: 20px 0;
 }

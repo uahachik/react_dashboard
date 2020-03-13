@@ -7,15 +7,15 @@ const modalRoot = document.getElementById('modal-root')
 
 const ProfileModal = ({onClose}) => {
     return ReactDOM.createPortal(
-      <div className="_411_mainContainer" onClick={onClose}>
-        <div className="_411_container" onClick={e => e.stopPropagation()}>
+      <div className="_1000_mainContainer" onClick={onClose}>
+        <div className="_1000_container" onClick={e => e.stopPropagation()}>
 
             <h3 style={{pointerEvents: 'none'}}>Greetings!</h3>
             <hr />
 
-            <div className="_411_content">
+            <div className="_1000_content">
 
-                <Column className="_411_form" >
+                <Column className="_1000_form" >
                 
                     <span>Login:_____________________</span> 
             
@@ -25,7 +25,7 @@ const ProfileModal = ({onClose}) => {
 
             </div>
                 
-            <button className="_411_button" onClick={onClose}>Submit</button>
+            <button className="_1000_button" onClick={onClose}>Submit</button>
         </div>
       </div>,
       modalRoot,
