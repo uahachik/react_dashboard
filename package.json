@@ -13,7 +13,8 @@
         "simple-flexbox": "^2.3.0"
     },
     "scripts": {
-        "start": "react-scripts start",
+        "dev": "react-scripts start",
+        "start": "serve -s build",
         "build": "GENERATE_SOURCEMAP=false react-scripts build",
         "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm run build",
         "test": "react-scripts test",
