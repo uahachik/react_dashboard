@@ -9,7 +9,6 @@
 ._100_burgerIcon {
     position: absolute;
     cursor: pointer;
-    z-index: 1;
 }
 
 @media (max-width: 960px) {

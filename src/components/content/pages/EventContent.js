@@ -25,8 +25,12 @@ const EventContent = () => {
     )
 }
 
+EventContent.defaultProps = {
+    title: 'false'
+}
+
 EventContent.propTypes = {
-    title: PropTypes.string.isRequired
+    title: PropTypes.string
 }
 
 export default EventContent;

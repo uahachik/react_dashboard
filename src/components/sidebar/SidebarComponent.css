@@ -38,6 +38,7 @@
     min-width: 100%;
     padding-bottom: 4%;
     background-color: rgba(0, 0, 0, 0.712);
+    z-index: 1;
 }
 
 @media (max-height: 491px) {

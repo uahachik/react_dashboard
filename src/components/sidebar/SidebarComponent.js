@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Column } from 'simple-flexbox';
 import './SidebarComponent.css'
 
@@ -71,5 +72,17 @@ const SidebarComponent = ({sidebarProps: {isEspanded, setIsEspanded, toggleMenu}
         </div>
     );
 };
+
+SidebarComponent.defaultProps = {
+    isEspanded: false,
+    setIsEspanded: () => {},
+    toggleMenu: () => {}
+}
+
+SidebarComponent.propTypes = {
+    isEspanded: PropTypes.bool,
+    setIsEspanded: PropTypes.func,
+    toggleMenu: PropTypes.func
+}
 
 export default SidebarComponent;
