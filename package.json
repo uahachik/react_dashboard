@@ -16,7 +16,7 @@
         "dev": "react-scripts start",
         "start": "serve -s build",
         "build": "GENERATE_SOURCEMAP=false react-scripts build",
-        "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm run build",
+        "heroku-postbuild": "npm run build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },
